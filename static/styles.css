@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #87CEEB; /* Color de fondo del cielo */
+}
+
+#game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #8B4513; /* Color de fondo del suelo */
+}
+
+#player {
+    position: absolute;
+    bottom: 50px; /* Altura inicial */
+    left: 50px; /* Posición inicial */
+    width: 50px; /* Ancho del cubo */
+    height: 50px; /* Alto del cubo */
+    background-image: url('dist/img/cubo.png'); /* URL de la imagen del cubo de Minecraft */
+    background-size: cover;
+}
