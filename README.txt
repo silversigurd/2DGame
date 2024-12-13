@@ -1,0 +1,1 @@
+If you wanna play just put this command in the console "python game.py"
